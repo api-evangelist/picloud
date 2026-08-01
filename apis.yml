@@ -1,22 +1,59 @@
 aid: picloud
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/picloud.png
 name: PiCloud
-description: PiCloud is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: PiCloud was a cloud-computing startup founded in 2009 that offered a pay-as-you-go,
+  serverless platform for running Python workloads across public (AWS) and private clouds
+  without provisioning, configuring, or managing virtual servers — popular for batch processing,
+  high-performance computing, and scientific computing. It raised a seed round from Andreessen
+  Horowitz (a16z), Kleiner Perkins, Plug and Play, and Greylock. The team was acquired by Dropbox
+  in November 2013 and the PiCloud service was shut down on February 25, 2014 (its platform lived
+  on briefly as the open-source Multyvac project). The picloud.com domain is now parked, and there
+  is no live API, developer portal, or documentation to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/picloud/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
+- Kleiner Perkins
+- Greylock
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-acquired-by: Dropbox
+x-acquired-date: '2013-11-17'
+x-shutdown-date: '2014-02-25'
+x-domain-status: parked
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Cloud Computing
+- Serverless
+- High Performance Computing
+- Batch Processing
+- Python
+- Defunct
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
